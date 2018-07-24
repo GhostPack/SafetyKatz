@@ -57,4 +57,4 @@ SafetyKatz is licensed under the BSD 3-Clause license.
 
 We are not planning on releasing binaries for SafetyKatz, so you will have to compile yourself :)
 
-SafetyKatz has been built against.NET 3.5 and is compatible with[Visual Studio 2015 Community Edition] (https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409). Simply open up the project .sln, choose "release", and build.
+SafetyKatz has been built against.NET 3.5 and is compatible with[Visual Studio 2015 Community Edition](https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409). Simply open up the project .sln, choose "release", and build.
