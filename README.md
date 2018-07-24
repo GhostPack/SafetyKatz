@@ -2,7 +2,7 @@
 
 ----
 
-SafetyKatz is a combination of slightly modified version of [@gentilkiwi](https://twitter.com/gentilkiwi)'s [Mimikatz](https://github.com/gentilkiwi/mimikatz/) project and [@subtee](https://twitter.com/subtee)'s [.NET PE Loader] (https://github.com/re4lity/subTee-gits-backups/blob/master/PELoader.cs).
+SafetyKatz is a combination of slightly modified version of [@gentilkiwi](https://twitter.com/gentilkiwi)'s [Mimikatz](https://github.com/gentilkiwi/mimikatz/) project and [@subtee](https://twitter.com/subtee)'s [.NET PE Loader](https://github.com/re4lity/subTee-gits-backups/blob/master/PELoader.cs).
 
 First, the [MiniDumpWriteDump](https://docs.microsoft.com/en-us/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) Win32 API call is used to create a minidump of LSASS to C:\Windows\Temp\debug.bin. Then @subtee's PELoader is used to load a customized version of Mimikatz that runs
 **sekurlsa::logonpasswords** and **sekurlsa::ekeys** on the minidump file, removing the file after execution is complete.
