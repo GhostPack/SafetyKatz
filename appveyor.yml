@@ -1,0 +1,7 @@
+version: 1.0.{build}
+configuration: release
+build:
+  parallel: true
+  verbosity: minimal
+artifacts:
+- path: SafetyKatz\bin\Release\SafetyKatz.exe
